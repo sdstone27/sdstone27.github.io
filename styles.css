@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-	color: purple;
+	color: #680068;
 }
 
 .assign {
@@ -22,10 +22,24 @@ h2 {
 }
 .assign img {
     width: 200px;
-    padding: 10px;
+    padding: 5px;
+	margin-right: 20px;
 	border-radius: 25px;
+	border: 2px solid grey; 
+}
+.assign img:hover {
+	border-radius:15px;
+	border: 2px solid dimgrey; 
 }
 
 a {
-	color:darkmagenta
+	text-decoration: none; 
+	color: purple
+}
+a:hover {
+	text-decoration: underline;
+	color: darkmagenta 
+}
+a h2 {
+	color: purple
 }
